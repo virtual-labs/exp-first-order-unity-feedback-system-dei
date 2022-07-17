@@ -4,7 +4,7 @@
 <b>Discipline | <b>Electrical Engineering
 :--|:--|
 <b> Lab | <b> Control Engineering Virtual Laboratory (PCC-EE17)
-<b> Experiment|     <b> 2: To determine (i) Step response of 1 st order system (ii) Impulse response of 1st order system
+<b> Experiment|     <b> 2: Find and Plot the step and impulse response for a first-order unity feedback system 
 ### About the Experiment 
 
 Fill a brief description of this experiment here
