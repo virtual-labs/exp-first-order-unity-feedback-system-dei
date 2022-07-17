@@ -1,20 +1,19 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Electrical Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
-
+<b> Lab | <b> Control Engineering Virtual Laboratory (PCC-EE17)
+<b> Experiment|     <b> 2: To determine (i) Step response of 1 st order system (ii) Impulse response of 1st order system
 ### About the Experiment 
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Dr. Rajeev Kumar Chauhan
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  Dayalbagh Educational Institute Agra
+<b> Email id|     <b>  rkchauhan@dei.ac.in 
+<b> Department |  Department of Electrical Engineering
 
 ### Contributors List
 
