@@ -36,32 +36,32 @@ function addval() {
     var s = a3.toFixed(0);
     var t = b3.toFixed(0);
     var c1 = b1 / (b1 + b2);
-    var c2 = (a1 * b2 - b1 * a2) / (b2 + b1) / (a1 + a2);
-    var c3 = -1 * (b2 + b1) / (a2 + a1);
+    var c2 = 1 / a3;
+    var c3 = -1 * (b3 / a3);
     console.log(typeof c1);
     console.log(c1);
     var maxl, stepl;
-    if ((c1 + Math.pow(Math.E, c3 * 10) * c2).toFixed(4) == (c1 + Math.pow(Math.E, c3 * 9.8) * c2).toFixed(4)) {
+    if ((Math.pow(Math.E, c3 * 10) * c2).toFixed(4) == (Math.pow(Math.E, c3 * 9.8) * c2).toFixed(4)) {
         maxl = 10;
         stepl = 0.05;
-    } else if ((c1 + Math.pow(Math.E, c3 * 25) * c2).toFixed(4) == (c1 + Math.pow(Math.E, c3 * 24.5) * c2).toFixed(4)) {
+    } else if ((Math.pow(Math.E, c3 * 25) * c2).toFixed(4) == (Math.pow(Math.E, c3 * 24.5) * c2).toFixed(4)) {
         maxl = 25;
         stepl = 0.125;
-    } else if ((c1 + Math.pow(Math.E, c3 * 50) * c2).toFixed(4) == (c1 + Math.pow(Math.E, c3 * 49) * c2).toFixed(4)) {
+    } else if ((Math.pow(Math.E, c3 * 50) * c2).toFixed(4) == (Math.pow(Math.E, c3 * 49) * c2).toFixed(4)) {
         maxl = 50;
         stepl = 0.25;
-    } else if ((c1 + Math.pow(Math.E, c3 * 100) * c2).toFixed(4) == (c1 + Math.pow(Math.E, c3 * 98) * c2).toFixed(4)) {
+    } else if ((Math.pow(Math.E, c3 * 100) * c2).toFixed(4) == (Math.pow(Math.E, c3 * 98) * c2).toFixed(4)) {
         maxl = 100;
         stepl = 0.5;
-    } else if ((c1 + Math.pow(Math.E, c3 * 200) * c2).toFixed(4) == (c1 + Math.pow(Math.E, c3 * 196) * c2).toFixed(4)) {
+    } else if ((Math.pow(Math.E, c3 * 200) * c2).toFixed(4) == (Math.pow(Math.E, c3 * 196) * c2).toFixed(4)) {
         maxl = 200;
         stepl = 1;
     } else {
         maxl = 1;
-        stepl = 0.005;
+        stepl = 0.005
     }
     for (let i = 0; i <= maxl; i = i + stepl) {
-        let cal = c1 + Math.pow(Math.E, c3 * i) * c2;
+        let cal = Math.pow(Math.E, c3 * i) * c2;
         console.log(cal.toFixed(4));
         dat.push(cal);
         lab.push(i.toFixed(1));
@@ -139,20 +139,16 @@ function addval() {
         document.getElementById("generated_eqn").innerHTML = eqn;
         var output;
         document.getElementById("out1").innerHTML = eqn;
-        eqn = "$${" + c1.toFixed(5) + " + e^{" + c3.toFixed(2) + "*t}*" + c2.toFixed(4) + "}$$";
+        eqn = "$${" + "e^{" + c3.toFixed(2) + "*t}*" + c2.toFixed(4) + "}$$";
         document.getElementById("tanswer").innerHTML = eqn;
         var j, k;
-
-        //document.getElementById("line1values").innerHTML=a + " " + b ;
-        //document.getElementById("line2values").innerHTML=p + " " + q ;
-
         var ms = window.matchMedia("(max-width:950px)");
         cwidth(ms);
         ms.addListener(cwidth);
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "generated_eqn"]);
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "fgenerated_eqn"]);
-        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "out2"]);
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "out1"]);
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "out2"]);
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "tanswer"]);
     } else {
         mto = 1;
@@ -176,8 +172,12 @@ function discriminant(a, b, c) {
 
 
 function showval() {
+    //genval("numa","la");
+    //genval("numb","lb");
+    //genval("numc","lc");
     genval("dena", "lp");
     genval("denb", "lq");
+    //genval("denc","lr");
 };
 
 function genval(idofinput, idofspan) {
@@ -232,7 +232,7 @@ function cwidth(ms) {
         options: {
             title: {
                 display: true,
-                text: "Step Response",
+                text: "Impulse Response",
                 fontSize: 14,
             },
             maintainAspectRatio: false,
