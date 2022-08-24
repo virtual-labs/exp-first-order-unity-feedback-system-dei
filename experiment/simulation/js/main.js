@@ -1,3 +1,4 @@
+
 //Your JavaScript goes in here
 
 var mto = 0.5;
@@ -300,4 +301,4 @@ function dispmenu(val) {
         document.getElementById("simulation-cont").setAttribute("style", "opacity:01");
         document.getElementById("navbar").setAttribute("style", "display:none");
     }
-}
+
