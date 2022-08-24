@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Virtual Labs Dei-Linear Control Systems</title>
+	<link rel = "icon" href = 
+"https://www.vlab.co.in/images/logo.jpg" 
+        type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="src/css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
 
-<<<<<<< Updated upstream
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-=======
 	<header>
 	<select id="pagechanger">
-		<option value="1" selected>
-			 To determine Step response of 1st order system 
-		</option>
-		<option value="2" >
+		<option value="2" selected>
 			To determine Impulse response of 1st order system 
+		</option>
+		<option value="1" >
+			 To determine Step response of 1st order system 
 		</option>
 	</select>
 	<a href="../simulation_1/index.html" id="sm1" style="display:none;"></a>
@@ -32,14 +32,16 @@
 					<h3>Coeffecients of Numerator Polynomials</h3>
 					<input type="range" name="valuea"  min="1" max="10" list = "datlist" id="numc" onchange="showval() " onmousemove="showval()" class="range-input" value="1">
 					<p>c:<span id="lc"></span></p>
-				</div>
+				</div>	
 				<div class="denominator">
-					<h3>Coeffecients of Denominator Polynomials</h3>
+					<h3>Enter Denominator values</h3>
 					<input type="range" name="valuea"  min="0" max="10" list = "datlist" id="dena" onchange="showval() " onmousemove="showval()" class="range-input" value="0">
 					<p>p:<span id="lp"></span></p>
 					<input type="range" name="valuea"  min="0" max="10" list = "datlist" id="denb" onchange="showval() " value="0" onmousemove="showval()" class="range-input">
 					<p>q:<span id="lq"></span></p>
+					
 				</div>
+				
 				<button id="input_value" onclick="addval();">Submit</button>
 			<datalist id="datlist">
 				<option value="0" label="0%"></option>
@@ -62,11 +64,11 @@
 			<div class="prog-window">
 			<p class="mpara">You can run each command, line by line by pressing the run button and see the output of the particular line below it</p>
 			<code id="mat-code">
-				<span id="line1">Open loop transfer eqaution</span><br>
+				<span id="line1">Open loop transfer equation</span><br>
 				<span id="out1" class="genout"></span>
 				<span id="line2">Closed loop transfer equation</span><br>
 				<span id="out2" class="genout"></span>
-				<span id="line3">Step response</span><br>
+				<span id="line3">Impulse response graph</span><br>
 				<div id="tanswer"></div>
 				<div class="mob-chart">
 				<div id="chartcont">
@@ -90,13 +92,13 @@
 			<canvas id="myChart" style="width:100%;"></canvas>
 		</div>
 	</div>
-	<div class="conclusions">
+</div>
+<div class="conclusions">
 		<h1> Conclusions</h1>
 		<span id="fconclusions">Conclusions will show here</span>
 	</div>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-	<script type="text/javascript" src="src/js/main.js"></script>
+	<script type="text/javascript" src="src/js/main1.js"></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
->>>>>>> Stashed changes
 </body>
 </html>
