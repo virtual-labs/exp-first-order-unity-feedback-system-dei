@@ -1,6 +1,6 @@
-<<<<<<< Updated upstream
+
 //Your JavaScript goes in here
-=======
+
 var mto = 0.5;
 var lab = [],
     dat = [];
@@ -302,4 +302,3 @@ function dispmenu(val) {
         document.getElementById("navbar").setAttribute("style", "display:none");
     }
 }
->>>>>>> Stashed changes
