@@ -89,6 +89,7 @@ function addval() {
     }
 
     if (mto) {
+        document.getElementById("fconclusions").innerHTML = "Conclusions will show here";
         document.getElementById("matwork").title = "";
         document.getElementById("mrun").disabled = false;
         document.getElementById("matwork").setAttribute("style", "opacity:1");
@@ -152,6 +153,7 @@ function addval() {
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "tanswer"]);
     } else {
         mto = 1;
+        document.getElementById("fconclusions").innerHTML = "Conclusions will show here";
         /*document.getElementById("generated_eqn").innerHTML ="$${ \\frac{ 1}{  ps + q} }$$";
         MathJax.Hub.Queue(["Typeset",MathJax.Hub,"generated_eqn"]);
         document.getElementById("fgenerated_eqn").innerHTML ="$${ \\frac{ 1}{  ps + q+1} }$$";
@@ -200,6 +202,7 @@ function runprog(i) {
         console.log(ms);
         widthcheck(ms);
         ms.addListener(widthcheck);
+        document.getElementById("fconclusions").innerHTML = "System response decrease exponential with respect to time and achieve its final value at t &rarr; &infin;";
         document.getElementById("mrun").disabled = true;
         document.getElementById("mrun").classList.remove("mrunenabled");
         document.getElementById("mrun").classList.add("mrundisabled");
