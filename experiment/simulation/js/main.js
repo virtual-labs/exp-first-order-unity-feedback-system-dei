@@ -1,6 +1,3 @@
-
-//Your JavaScript goes in here
-
 var mto = 0.5;
 var lab = [],
     dat = [];
@@ -92,6 +89,7 @@ function addval() {
     }
 
     if (mto) {
+        document.getElementById("fconclusions").innerHTML = "Conclusions will show here";
         document.getElementById("matwork").title = "";
         document.getElementById("mrun").disabled = false;
         document.getElementById("matwork").setAttribute("style", "opacity:1");
@@ -159,6 +157,7 @@ function addval() {
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "tanswer"]);
     } else {
         mto = 1;
+        document.getElementById("fconclusions").innerHTML = "Conclusions will show here";
         //document.getElementById("generated_eqn").innerHTML ="$${ \\frac{ 1}{  ps + q} }$$";
         //MathJax.Hub.Queue(["Typeset",MathJax.Hub,"generated_eqn"]);
         //document.getElementById("fgenerated_eqn").innerHTML ="$${ \\frac{ 1}{  ps + q+1} }$$";
@@ -200,6 +199,7 @@ function runprog(i) {
     else {
         document.getElementById("line3").setAttribute("style", "color:black;");
         document.getElementById("mrun").disabled = true;
+        document.getElementById("fconclusions").innerHTML = "System response increase exponential with respect to time and achieve its final value at t &rarr; &infin;";
         var ms = window.matchMedia("screen and (max-width:950px)");
         console.log(ms);
         widthcheck(ms);
@@ -300,5 +300,9 @@ function dispmenu(val) {
         document.body.style.backgroundColor = "white";
         document.getElementById("simulation-cont").setAttribute("style", "opacity:01");
         document.getElementById("navbar").setAttribute("style", "display:none");
+
+    }
+}
+
     }};
 
