@@ -359,6 +359,7 @@ header {
 .conclusions {
     border-top: 4px solid dodgerblue;
     height: 16vh;
+    position:relative;
     background-color: aliceblue;
 }
 
@@ -442,7 +443,7 @@ header {
         height: 79vh;
     }
     .prog-window {
-        height: 75%;
+        height: 70%;
     }
 }
 
