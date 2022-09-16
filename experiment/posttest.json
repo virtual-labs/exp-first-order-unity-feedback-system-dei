@@ -2,37 +2,25 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What will be the flow of output of impulse response of 1st order system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "System response will remain constant",
+        "b": "System response will first increase exponentially and then decrease to its final value at t equal to infinity ",
+        "c": "System response will exponentially decrease to its final value at t equal to infinity ",
+        "d": "System response will exponentially increase to its final value at t equal to infinity "
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What will be the flow of output of step response of 1st order system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "System response will remain constant",
+        "b": "System response will first increase exponentially and then decrease to its final value at t equal to infinity ",
+        "c": "System response will exponentially decrease to its final value at t equal to infinity ",
+        "d": "System response will exponentially increase to its final value at t equal to infinity "
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]

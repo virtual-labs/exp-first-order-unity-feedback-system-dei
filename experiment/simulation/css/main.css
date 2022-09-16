@@ -179,7 +179,6 @@ body {
 
 .prog-window {
     background-color: whitesmoke;
-    height: 80%;
     position: relative;
     left: 3%;
     width: 90%;
@@ -362,6 +361,7 @@ header {
 .conclusions {
     border-top: 4px solid dodgerblue;
     height: 16vh;
+    position:relative;
     background-color: aliceblue;
 }
 
@@ -445,7 +445,7 @@ header {
         height: 79vh;
     }
     .prog-window {
-        height: 75%;
+        height: 70%;
     }
 }
 

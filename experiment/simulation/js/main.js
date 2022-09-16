@@ -302,7 +302,5 @@ function dispmenu(val) {
         document.getElementById("navbar").setAttribute("style", "display:none");
 
     }
-}
-
-    }};
+};
 
