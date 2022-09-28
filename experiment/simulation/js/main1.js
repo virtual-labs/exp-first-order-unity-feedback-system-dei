@@ -264,7 +264,9 @@ function cwidth(ms) {
 
 function widthcheck(ms) {
     if (ms.matches)
-        document.getElementById("chartcont").setAttribute("style", "display:block;");
+        {   document.getElementById("tanswer").setAttribute("style","display:block");
+            document.getElementById("chartcont").setAttribute("style", "display:block;");
+}
     else {
         document.getElementById("chartcont1").setAttribute("style", "display:block;");
         document.getElementById("tanswer").setAttribute("style", "display:block");
