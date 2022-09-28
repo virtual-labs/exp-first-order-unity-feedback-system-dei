@@ -377,6 +377,15 @@ header {
     }
 }
 
+@media screen and (max-width: 550px){
+    @media screen and (max-height: 850px){
+
+        .prog-window{
+            height: 77%;
+        }
+    }
+}
+
 @media screen and (min-height: 700px) {
     #enter-val {
         height: 62vh;
@@ -465,11 +474,4 @@ header {
     }
 }
 
-@media screen and (max-width: 550px){
-    @media screen and (max-height: 850px){
 
-        .prog-window{
-            height: 77%;
-        }
-    }
-}
