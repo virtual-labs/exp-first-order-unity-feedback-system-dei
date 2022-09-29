@@ -366,6 +366,18 @@ height: 77%;
         display: block;
     }
 }
+@media screen and (max-height: 450px)
+{
+
+#input-statements{
+height: 90vh;
+}
+.matlab-working{
+    margin-top: 40px;
+height: 90vh;
+}
+}
+
 @media screen and (max-width: 950px) {
     #enter-val {
         width: 100%;
