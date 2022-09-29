@@ -376,7 +376,14 @@ header {
         position: relative;
     }
 }
-
+@media screen and (max-height: 680px) {
+    #enter-val {
+        height: 79vh;
+    }
+    .prog-window {
+        height: 70%;
+    }
+}
 @media screen and (max-width: 550px){
 .prog-window{
 height: 77%;
@@ -438,14 +445,7 @@ height: 91vh;
     }
 }
 
-@media screen and (max-height: 680px) {
-    #enter-val {
-        height: 79vh;
-    }
-    .prog-window {
-        height: 70%;
-    }
-}
+
 
 @media screen and (max-width: 300px) {
     #pagechanger {
