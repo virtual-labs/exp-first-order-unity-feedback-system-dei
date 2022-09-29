@@ -378,6 +378,15 @@ header {
     color: dodgerblue;
 }
 
+@media screen and (min-height: 550px){
+.prog-window{
+height: 77%;
+}
+#input_button {
+        transform: scale(0.8);
+        display: block;
+    }
+}
 @media screen and (max-width: 950px) {
     #enter-val {
         width: 100%;
