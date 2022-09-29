@@ -377,7 +377,7 @@ header {
     }
 }
 
-@media screen and (min-height: 550px){
+@media screen and (max-width: 550px){
 .prog-window{
 height: 77%;
 }
