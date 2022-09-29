@@ -377,12 +377,13 @@ header {
     }
 }
 
-@media screen and (max-width: 550px){
-    @media screen and (max-height: 850px){
-
-        .prog-window{
-            height: 77%;
-        }
+@media screen and (min-height: 550px){
+.prog-window{
+height: 77%;
+}
+#input_button {
+        transform: scale(0.8);
+        display: block;
     }
 }
 
