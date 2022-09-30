@@ -91,7 +91,6 @@ body {
     font-size: 15px;
     margin: 15px 0px;
 }
-
 .range-input {
     height: 12px;
     position: relative;
@@ -102,6 +101,7 @@ body {
 .range-input:hover {
     cursor: pointer;
 }
+
 
 .displayed-eqn {
     height: 25%;
@@ -242,6 +242,7 @@ body {
 
 #chartcont {
     width: 90%;
+
     height: 300px;
     padding: 10px;
     position: relative;
@@ -313,7 +314,6 @@ body {
 
 
 
-
 .container {
     display: inline-block;
     cursor: pointer;
@@ -376,15 +376,35 @@ header {
         position: relative;
     }
 }
-
-@media screen and (max-width: 550px){
-    @media screen and (max-height: 850px){
-
-        .prog-window{
-            height: 77%;
-        }
+@media screen and (max-height: 680px) {
+    #enter-val {
+        height: 79vh;
+    }
+    .prog-window {
+        height: 70%;
     }
 }
+@media screen and (max-width: 550px){
+.prog-window{
+height: 77%;
+}
+#input_button {
+        transform: scale(0.8);
+        display: block;
+    }
+}
+@media screen and (max-height: 450px)
+{
+
+#input-statements{
+height: 90vh;
+}
+.matlab-working{
+    margin-top: 50px;
+height: 91vh;
+}
+}
+
 
 @media screen and (min-height: 700px) {
     #enter-val {
@@ -410,6 +430,7 @@ header {
     }
     .prog-window {
         height: 80%;
+
     }
 }
 
@@ -426,14 +447,7 @@ header {
     }
 }
 
-@media screen and (max-height: 680px) {
-    #enter-val {
-        height: 79vh;
-    }
-    .prog-window {
-        height: 70%;
-    }
-}
+
 
 @media screen and (max-width: 300px) {
     #pagechanger {
@@ -473,5 +487,4 @@ header {
         }
     }
 }
-
 

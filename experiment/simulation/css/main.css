@@ -51,14 +51,19 @@ body {
 #enter-val {
     width: 30%;
     float: left;
+
     height: 65vh;
+
+
 }
 
 #input-statements {
     width: 100%;
+
     height: 65vh;
     background-color: aliceblue;
     padding: 10px 0;
+
 }
 
 .numerator {
@@ -77,6 +82,7 @@ body {
 
 #input-statements p {
     margin: 15px 0px;
+
 }
 
 #datalist option {
@@ -90,10 +96,12 @@ body {
     text-align: center;
 }
 
+
 .denominator h3 {
     font-size: 15px;
     margin: 15px 0px;
 }
+
 
 .range-input {
     height: 12px;
@@ -105,6 +113,7 @@ body {
 .range-input:hover {
     cursor: pointer;
 }
+
 
 .displayed-eqn {
     height: 25%;
@@ -119,6 +128,7 @@ body {
     top: 10px;
     position: relative;
     height: 80%;
+
 }
 
 #generated_eqn {
@@ -188,6 +198,7 @@ body {
     overflow-y: scroll;
     padding-bottom: 20px;
 }
+
 
 .mhead {
     position: relative;
@@ -312,31 +323,6 @@ body {
 .mat:hover {
     cursor: not-allowed;
 }
-
-
-/*@media screen and (max-width: 500px){
-  #enter-val{
-width: 100%;
-height: 60vh;
-}
-.matlab-working
-{
-  height: 60vh;
-width: 100%;}
-.program{
-border-bottom-left-radius: 0px;
-border-top-right-radius:20px ;
-}
-}
-@media screen and (max-height: 800px)
-{
-#enter-val{
-height: 75vh;
-}
-.matlab-working{
-height: 79vh;}
-}*/
-
 .container {
     display: inline-block;
     cursor: pointer;
@@ -376,6 +362,28 @@ header {
     position: relative;
     left: 2.5%;
     color: dodgerblue;
+}
+
+@media screen and (max-width: 550px){
+.prog-window{
+height: 77%;
+}
+#input_button {
+        transform: scale(0.8);
+        display: block;
+    }
+}
+@media screen and (max-height: 450px)
+{
+
+#input-statements{
+height: 90vh;
+}
+.matlab-working{
+    margin-top: 50px;
+height: 92vh;
+}
+
 }
 
 @media screen and (max-width: 950px) {
@@ -446,6 +454,7 @@ header {
     }
     .prog-window {
         height: 70%;
+
     }
 }
 
@@ -487,3 +496,4 @@ header {
         }
     }
 }
+
