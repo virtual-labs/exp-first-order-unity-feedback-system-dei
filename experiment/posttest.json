@@ -46,7 +46,7 @@
 
             },
             "correctAnswer": "a",
-            "difficulty": "beginner"
+            "difficulty": "intermediate"
         },
         {
             "question": "In Figure below estimate the settling time:<br> <img style=\"max-height:250px; max-width:400px;\" src=\"./images/posttestQ4.png\">",
@@ -60,7 +60,7 @@
 
             },
             "correctAnswer": "b",
-            "difficulty": "beginner"
+            "difficulty": "intermediater"
         }
 
   ]
