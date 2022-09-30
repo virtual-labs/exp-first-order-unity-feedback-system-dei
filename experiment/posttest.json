@@ -49,7 +49,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "In Figure below estimate the settling time:<br> <img src=\"./images/posttestQ4.png\">",
+            "question": "In Figure below, the settling time is close to:<br> <img src=\"./images/posttestQ4.png\">",
             "answers": {
                 "a": "1 second",
                 "b": "2 seconds",
