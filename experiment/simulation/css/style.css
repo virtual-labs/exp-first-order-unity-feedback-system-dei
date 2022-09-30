@@ -91,7 +91,6 @@ body {
     font-size: 15px;
     margin: 15px 0px;
 }
-
 .range-input {
     height: 12px;
     position: relative;
@@ -102,6 +101,7 @@ body {
 .range-input:hover {
     cursor: pointer;
 }
+
 
 .displayed-eqn {
     height: 25%;
@@ -242,6 +242,7 @@ body {
 
 #chartcont {
     width: 90%;
+
     height: 300px;
     padding: 10px;
     position: relative;
@@ -310,7 +311,6 @@ body {
 .mat:hover {
     cursor: not-allowed;
 }
-
 
 
 
@@ -405,6 +405,7 @@ height: 91vh;
 }
 }
 
+
 @media screen and (min-height: 700px) {
     #enter-val {
         height: 62vh;
@@ -429,6 +430,7 @@ height: 91vh;
     }
     .prog-window {
         height: 80%;
+
     }
 }
 
@@ -485,5 +487,4 @@ height: 91vh;
         }
     }
 }
-
 

@@ -51,14 +51,19 @@ body {
 #enter-val {
     width: 30%;
     float: left;
+
     height: 65vh;
+
+
 }
 
 #input-statements {
     width: 100%;
+
     height: 65vh;
     background-color: aliceblue;
     padding: 10px 0;
+
 }
 
 .numerator {
@@ -77,6 +82,7 @@ body {
 
 #input-statements p {
     margin: 15px 0px;
+
 }
 
 #datalist option {
@@ -90,10 +96,12 @@ body {
     text-align: center;
 }
 
+
 .denominator h3 {
     font-size: 15px;
     margin: 15px 0px;
 }
+
 
 .range-input {
     height: 12px;
@@ -105,6 +113,7 @@ body {
 .range-input:hover {
     cursor: pointer;
 }
+
 
 .displayed-eqn {
     height: 25%;
@@ -119,6 +128,7 @@ body {
     top: 10px;
     position: relative;
     height: 80%;
+
 }
 
 #generated_eqn {
@@ -188,6 +198,7 @@ body {
     overflow-y: scroll;
     padding-bottom: 20px;
 }
+
 
 .mhead {
     position: relative;
@@ -312,10 +323,6 @@ body {
 .mat:hover {
     cursor: not-allowed;
 }
-
-
-
-
 .container {
     display: inline-block;
     cursor: pointer;
@@ -376,6 +383,7 @@ height: 90vh;
     margin-top: 50px;
 height: 92vh;
 }
+
 }
 
 @media screen and (max-width: 950px) {
@@ -446,6 +454,7 @@ height: 92vh;
     }
     .prog-window {
         height: 70%;
+
     }
 }
 
@@ -487,3 +496,4 @@ height: 92vh;
         }
     }
 }
+

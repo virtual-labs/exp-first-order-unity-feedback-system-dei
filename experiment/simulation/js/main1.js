@@ -137,6 +137,7 @@ function addval() {
         denominator = denominator + "}}$$";
         eqn = numerator + denominator;
 
+
         //document.getElementById("generated_eqn").innerHTML = eqn;
         var output;
         document.getElementById("out1").innerHTML = eqn;
@@ -153,6 +154,7 @@ function addval() {
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "tanswer"]);
     } else {
         mto = 1;
+
         document.getElementById("fconclusions").innerHTML = "Conclusions will show here";
         /*document.getElementById("generated_eqn").innerHTML ="$${ \\frac{ 1}{  ps + q} }$$";
         MathJax.Hub.Queue(["Typeset",MathJax.Hub,"generated_eqn"]);
