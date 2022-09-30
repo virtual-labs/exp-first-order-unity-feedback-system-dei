@@ -35,7 +35,7 @@
       "difficulty": "intermediate"
     },
     {
-            "question": "In Figure below what is the value of rise time is close to: <img src='.\images\posttestQ4.png'>",
+            "question": "In Figure below what is the value of rise time is close to: <img src=\"./images/posttestQ4.png\">",
             "answers": {
                 "a": "1.1 seconds",
                 "b": "1.2 seconds",
@@ -49,7 +49,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "In Figure below estimate the settling time: <img src='.\images\posttestQ4.png'>",
+            "question": "In Figure below estimate the settling time: <img src=\"./images/posttestQ4.png\">",
             "answers": {
                 "a": "1 second",
                 "b": "2 seconds",

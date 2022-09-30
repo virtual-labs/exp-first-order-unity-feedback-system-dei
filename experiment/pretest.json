@@ -41,7 +41,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Unit step response of first order system with transfer function with G(s) = <img src='.\images\pretestQ4.png'>",
+            "question": "Unit step response of first order system with transfer function with G(s) = <img src=\"./images/pretestQ4.png\">",
             "answers": {
                 "a": "1 - e <sup>-t/τ</sup>",
                 "b": "1 + e <sup>-t/τ</sup>",
@@ -55,7 +55,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "In the given figure what does A, B and C signifies: <img src='.\images\pretestQ5.png'>",
+            "question": "In the given figure what does A, B and C signifies: <img src=\"./images/pretestQ5.png\">",
             "answers": {
                 "a": "A: Input Signal, B: Open loop gain, C: Output Signal",
                 "b": "A: Output Signal, B: Open loop gain, C: Input Signal",
