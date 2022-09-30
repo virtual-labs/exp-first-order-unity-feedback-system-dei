@@ -23,5 +23,19 @@
 						<br>
 						<img src="./images/steprespo1.png">
 						<strong><li><em>For the impulse-step input:</em></li></strong><br>
+						Response of the first order system with unit impulse response:
+						<br>
+						For the unit-impulse input<br>
+						R(s) = 1
+						<br>
+						 $${C(s) =\frac{1}{s*T+1}*R(s)}$$ .......(1)
+						<br>
+						Subsituting the value of R(S) = 1 in equation (1), we get
+						<br>
+						$${C(s) =\frac{1}{s*T+1}*1}$$
+						$${C(s) =\frac{1}{T}*\frac{1}{s+\frac{1}{T}}*1}$$ ........(2)
+						Taking the inverse laplace transform of the equation of (2), we get the output response as
+						$${C(s) = \frac{1}{T}*e^\frac{-t}{T}}$$ for t >= 0 ......... (3)
+						The output response curve is shown below in the figure:
 						<img src="./images/impulserespo1.png">
 					</ol>
