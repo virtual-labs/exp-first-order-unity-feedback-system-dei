@@ -18,7 +18,7 @@ function addval() {
     dat = [];
     var nums, dens;
     var a = "0";
-    var b = "1";
+    var b = document.getElementById("numc").value;
     //var c= document.getElementById("numc").value;
     var p = document.getElementById("dena").value;
     var q = document.getElementById("denb").value;
@@ -89,6 +89,7 @@ function addval() {
     }
 
     if (mto) {
+        document.getElementById("fconclusions").innerHTML = "Conclusions will show here";
         document.getElementById("matwork").title = "";
         document.getElementById("mrun").disabled = false;
         document.getElementById("matwork").setAttribute("style", "opacity:1");
@@ -114,7 +115,7 @@ function addval() {
                 denominator = denominator + b3.toFixed();
         denominator = denominator + "}}$$";
         var eqn = numerator + denominator;
-        document.getElementById("fgenerated_eqn").innerHTML = eqn;
+        //document.getElementById("fgenerated_eqn").innerHTML = eqn;
         document.getElementById("out2").innerHTML = eqn;
         var numerator = "$${\\frac{";
         if (a != 0)
@@ -136,7 +137,7 @@ function addval() {
         denominator = denominator + "}}$$";
         eqn = numerator + denominator;
 
-        document.getElementById("generated_eqn").innerHTML = eqn;
+        //document.getElementById("generated_eqn").innerHTML = eqn;
         var output;
         document.getElementById("out1").innerHTML = eqn;
         eqn = "$${" + c1.toFixed(5) + " + e^{" + c3.toFixed(2) + "*t}*" + c2.toFixed(4) + "}$$";
@@ -149,17 +150,18 @@ function addval() {
         var ms = window.matchMedia("(max-width:950px)");
         cwidth(ms);
         ms.addListener(cwidth);
-        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "generated_eqn"]);
-        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "fgenerated_eqn"]);
+        //MathJax.Hub.Queue(["Typeset",MathJax.Hub,"generated_eqn"]);
+        //MathJax.Hub.Queue(["Typeset",MathJax.Hub,"fgenerated_eqn"]);
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "out2"]);
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "out1"]);
         MathJax.Hub.Queue(["Typeset", MathJax.Hub, "tanswer"]);
     } else {
         mto = 1;
-        document.getElementById("generated_eqn").innerHTML = "$${ \\frac{ 1}{  ps + q} }$$";
-        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "generated_eqn"]);
-        document.getElementById("fgenerated_eqn").innerHTML = "$${ \\frac{ 1}{  ps + q+1} }$$";
-        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "fgenerated_eqn"]);
+        document.getElementById("fconclusions").innerHTML = "Conclusions will show here";
+        //document.getElementById("generated_eqn").innerHTML ="$${ \\frac{ 1}{  ps + q} }$$";
+        //MathJax.Hub.Queue(["Typeset",MathJax.Hub,"generated_eqn"]);
+        //document.getElementById("fgenerated_eqn").innerHTML ="$${ \\frac{ 1}{  ps + q+1} }$$";
+        //MathJax.Hub.Queue(["Typeset",MathJax.Hub,"fgenerated_eqn"]);
         document.getElementById("mrun").disabled = true;
         document.getElementById("mrun").classList.remove('mrunenabled', 'mrundisabled');
         document.getElementById("tanswer").setAttribute("style", "display:none");
@@ -176,6 +178,7 @@ function discriminant(a, b, c) {
 
 
 function showval() {
+    genval("numc", "lc");
     genval("dena", "lp");
     genval("denb", "lq");
 };
@@ -196,6 +199,7 @@ function runprog(i) {
     else {
         document.getElementById("line3").setAttribute("style", "color:black;");
         document.getElementById("mrun").disabled = true;
+        document.getElementById("fconclusions").innerHTML = "System response increase exponential with respect to time and achieve its final value at t &rarr; &infin;";
         var ms = window.matchMedia("screen and (max-width:950px)");
         console.log(ms);
         widthcheck(ms);
@@ -261,7 +265,9 @@ function cwidth(ms) {
 
 function widthcheck(ms) {
     if (ms.matches)
-        document.getElementById("chartcont").setAttribute("style", "display:block;");
+        {document.getElementById("chartcont").setAttribute("style", "display:block;");
+        document.getElementById("tanswer").setAttribute("style","display:block");
+    }
     else {
         document.getElementById("chartcont1").setAttribute("style", "display:block;");
         document.getElementById("tanswer").setAttribute("style", "display:block");
@@ -296,5 +302,7 @@ function dispmenu(val) {
         document.body.style.backgroundColor = "white";
         document.getElementById("simulation-cont").setAttribute("style", "opacity:01");
         document.getElementById("navbar").setAttribute("style", "display:none");
+
     }
-}
+};
+
