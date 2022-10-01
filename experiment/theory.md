@@ -32,8 +32,8 @@
 						<br>
 						Subsituting the value of R(S) = 1 in equation (1), we get
 						<br>
-						$${C(s) =\frac{1}{sT+1}*1}$$
-						$${C(s) =\frac{1}{T}*\frac{1}{s+\frac{1}{T}}*1}$$ ........(2)
+						$${C(s) =\frac{1}{sT+1}}$$
+						$${C(s) =\frac{1}{T}*\frac{1}{s+\frac{1}{T}}}$$ ........(2)
 						Taking the inverse laplace transform of the equation of (2), we get the output response as
 						$${C(s) = \frac{1}{T}*e^\frac{-t}{T}}$$ for t >= 0 ......... (3)
 						The output response curve is shown below in the figure:
