@@ -35,7 +35,7 @@
 						$${C(s) =\frac{1}{sT+1}}$$
 						$${C(s) =\frac{1}{T}\frac{1}{s+\frac{1}{T}}}$$ <span style="float: right;">...... (2),</span><br>
 						Taking the inverse laplace transform of the equation of (2), we get the output response as
-						$${C(s) = \frac{1}{T}e^\frac{-t}{T}}$$ for t >= 0 <span style="float: right;">...... (1),</span><br>
+						$${C(s) = \frac{1}{T}e^\frac{-t}{T}}$$ for t >= 0 <span style="float: right;">...... (3),</span><br>
 						The output response curve is shown below in the figure:<br>
 						<img src="./images/impulserespo1.png">
 					</ol>
