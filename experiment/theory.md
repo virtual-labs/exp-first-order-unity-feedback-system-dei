@@ -8,7 +8,7 @@
 						<strong><li><em>For the unit-step input:</em></li></strong>
 						<br>R(t)=1,<br>R(s)=1/s <span style="float: right;">(a),</span><br>
 						Since the Laplace transform of the unit step function is 1/s , substituting R(s)=1/s in equation (1),
-						$${\frac{C(s)}{R(s)}=\frac{1}{sT+1}*\frac{1}{s}}$$ 
+						$${\frac{C(s)}{R(s)}=\frac{1}{sT+1}\frac{1}{s}}$$ 
 						Substitute the value of R(s)<br>
 						Expanding C(s) into partial fractions gives,
 						$${\frac{C(s)}{R(s)}=\frac{1}{s}-\frac{1}{sT+1}}$$<span style="float:right;">...... (2),</span><br>
@@ -23,5 +23,19 @@
 						<br>
 						<img src="./images/steprespo1.png">
 						<strong><li><em>For the impulse-step input:</em></li></strong><br>
+						Response of the first order system with unit impulse response:
+						<br>
+						For the unit-impulse input<br>
+						R(s) = 1
+						<br>
+						 $${C(s) =\frac{1}{sT+1}R(s)}$$ <span style="float: right;">...... (1),</span>
+						<br>
+						Subsituting the value of R(S) = 1 in equation (1), we get
+						<br>
+						$${C(s) =\frac{1}{sT+1}}$$
+						$${C(s) =\frac{1}{T}\frac{1}{s+\frac{1}{T}}}$$ <span style="float: right;">...... (2),</span><br>
+						Taking the inverse laplace transform of the equation of (2), we get the output response as
+						$${C(s) = \frac{1}{T}e^\frac{-t}{T}}$$ for t >= 0 <span style="float: right;">...... (3),</span><br>
+						The output response curve is shown below in the figure:<br>
 						<img src="./images/impulserespo1.png">
 					</ol>

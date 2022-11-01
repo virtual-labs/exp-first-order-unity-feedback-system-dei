@@ -49,7 +49,8 @@
             "difficulty": "intermediate"
         },
         {
-            "question": "In Figure below estimate the settling time:<br> <img style=\"max-height:250px; max-width:400px;\" src=\"./images/posttestQ4.png\">",
+
+            "question": "In Figure below, the settling time is close to:<br> <img style=\"max-height:250px; max-width:400px;\" src=\"./images/posttestQ4.png\">",
             "answers": {
                 "a": "1 second",
                 "b": "2 seconds",
