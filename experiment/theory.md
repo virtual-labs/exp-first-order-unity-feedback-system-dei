@@ -22,7 +22,7 @@
 						Equation (3) shows that the response curve is exponential in nature as shown on figure:
 						<br>
 						<img src="./images/steprespo1.png">
-						<strong><li><em>For the impulse-step input:</em></li></strong><br>
+						<strong><li><em>For the unit-impulse input:</em></li></strong><br>
 						Response of the first order system with unit impulse response:
 						<br>
 						For the unit-impulse input<br>
