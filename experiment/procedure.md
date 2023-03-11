@@ -12,8 +12,7 @@
 <p style="margin-left:20px;">2.1.2 Calculations:</p>
              <p style="margin-left:30px;">2.1.2.1 Click on the  “Run” button to obtain the open loop transfer function.<br>
              2.1.2.2 Click on  “Run” button again to obtain the closed loop transfer function.<br>
-             2.1.2.3 Again, click on  “Run”  button to get the time domain equation of step response in 
-                           calculation window.</p>
+             2.1.2.3 Again, click on “Run” button to get the time domain equation of step response and time domain specifications in the calculation window.</p>
 
 <p style="margin-left:20px;">2.1.3 Results:</p>
              <p style="margin-left:30px;">2.1.3.1 Once more click on the  “Run”  button to obtain the step response plot in s-plane
