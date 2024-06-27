@@ -8,11 +8,11 @@
 						<strong><li><em>For the unit-step input:</em></li></strong>
 						<br>R(t)=1,<br>R(s)=1/s <span style="float: right;">(a),</span><br>
 						Since the Laplace transform of the unit step function is 1/s , substituting R(s)=1/s in equation (1),
-						$${\frac{C(s)}{R(s)}=\frac{1}{sT+1}\frac{1}{s}}$$ 
+						$${C(s)=\frac{1}{sT+1} * \frac{1}{s}}$$ 
 						Substitute the value of R(s)<br>
 						Expanding C(s) into partial fractions gives,
-						$${\frac{C(s)}{R(s)}=\frac{1}{s}-\frac{1}{sT+1}}$$<span style="float:right;">...... (2),</span><br>
-						$${\frac{C(s)}{R(s)}=\frac{1}{s}-\frac{1}{s+(\frac{1}{T})}}$$
+						$${C(s)=\frac{1}{s}-\frac{T}{sT+1}}$$<span style="float:right;">...... (2),</span><br>
+						$${C(s)=\frac{1}{s}-\frac{1}{s+(\frac{1}{T})}}$$
 						Taking the inverse Laplace t+-ransform of equation (2),we get,<br>
 						C(t) = 1- e<sup>-t/T</sup> for t ≥ 0 <span style="float:right;">...... (3),</span><br>
 						Equation (3) shows that initially (when t=0), the output C(t) is zero and finally (t→∞) e<sup>-t/T</sup> is zero and the output C(t) becomes unity. 
