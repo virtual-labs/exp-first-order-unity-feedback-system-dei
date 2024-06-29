@@ -1,0 +1,117 @@
+
+/home/runner/work/exp-first-order-unity-feedback-system-dei/exp-first-order-unity-feedback-system-dei/experiment/simulation/js/main.js
+    4:5   warning  'eqn' is defined but never used             no-unused-vars
+    5:5   warning  'poles' is assigned a value but never used  no-unused-vars
+    6:5   warning  'roots' is assigned a value but never used  no-unused-vars
+    8:10  warning  'changepage' is defined but never used      no-unused-vars
+   16:10  warning  'addval' is defined but never used          no-unused-vars
+   19:9   warning  'nums' is defined but never used            no-unused-vars
+   19:15  warning  'dens' is defined but never used            no-unused-vars
+   27:9   warning  'x1' is defined but never used              no-unused-vars
+   27:13  warning  'y1' is defined but never used              no-unused-vars
+   28:9   warning  'ni' is assigned a value but never used     no-unused-vars
+   29:9   warning  'di' is assigned a value but never used     no-unused-vars
+   30:5   warning  'a1' is not defined                         no-undef
+   31:5   warning  'b1' is not defined                         no-undef
+   32:5   warning  'a2' is not defined                         no-undef
+   33:5   warning  'b2' is not defined                         no-undef
+   34:14  warning  'a2' is not defined                         no-undef
+   34:19  warning  'a1' is not defined                         no-undef
+   35:14  warning  'b2' is not defined                         no-undef
+   35:19  warning  'b1' is not defined                         no-undef
+   36:9   warning  's' is assigned a value but never used      no-unused-vars
+   37:9   warning  't' is assigned a value but never used      no-unused-vars
+   38:14  warning  'b1' is not defined                         no-undef
+   38:20  warning  'b1' is not defined                         no-undef
+   38:25  warning  'b2' is not defined                         no-undef
+   39:15  warning  'a1' is not defined                         no-undef
+   39:20  warning  'b2' is not defined                         no-undef
+   39:25  warning  'b1' is not defined                         no-undef
+   39:30  warning  'a2' is not defined                         no-undef
+   39:37  warning  'b2' is not defined                         no-undef
+   39:42  warning  'b1' is not defined                         no-undef
+   39:49  warning  'a1' is not defined                         no-undef
+   39:54  warning  'a2' is not defined                         no-undef
+   40:20  warning  'b2' is not defined                         no-undef
+   40:25  warning  'b1' is not defined                         no-undef
+   40:32  warning  'a2' is not defined                         no-undef
+   40:37  warning  'a1' is not defined                         no-undef
+  120:13  warning  'numerator' is already defined              no-redeclare
+  129:13  warning  'denominator' is already defined            no-redeclare
+  141:13  warning  'output' is defined but never used          no-unused-vars
+  145:13  warning  'j' is defined but never used               no-unused-vars
+  145:16  warning  'k' is defined but never used               no-unused-vars
+  155:9   warning  'MathJax' is not defined                    no-undef
+  155:39  warning  'MathJax' is not defined                    no-undef
+  156:9   warning  'MathJax' is not defined                    no-undef
+  156:39  warning  'MathJax' is not defined                    no-undef
+  157:9   warning  'MathJax' is not defined                    no-undef
+  157:39  warning  'MathJax' is not defined                    no-undef
+  173:2   warning  Unnecessary semicolon                       no-extra-semi
+  175:10  warning  'discriminant' is defined but never used    no-unused-vars
+  177:2   warning  Unnecessary semicolon                       no-extra-semi
+  180:10  warning  'showval' is defined but never used         no-unused-vars
+  184:2   warning  Unnecessary semicolon                       no-extra-semi
+  191:2   warning  Unnecessary semicolon                       no-extra-semi
+  195:10  warning  'runprog' is defined but never used         no-unused-vars
+  195:18  warning  'i' is defined but never used               no-unused-vars
+  211:2   warning  Unnecessary semicolon                       no-extra-semi
+  217:13  warning  'chartplot' is already defined              no-redeclare
+  233:21  warning  'Chart' is not defined                      no-undef
+  285:2   warning  Unnecessary semicolon                       no-extra-semi
+  289:10  warning  'dispmenu' is defined but never used        no-unused-vars
+  307:2   warning  Unnecessary semicolon                       no-extra-semi
+
+/home/runner/work/exp-first-order-unity-feedback-system-dei/exp-first-order-unity-feedback-system-dei/experiment/simulation/js/main1.js
+    4:5   warning  'eqn' is defined but never used             no-unused-vars
+    5:5   warning  'poles' is assigned a value but never used  no-unused-vars
+    6:5   warning  'roots' is assigned a value but never used  no-unused-vars
+    8:10  warning  'changepage' is defined but never used      no-unused-vars
+   16:10  warning  'addval' is defined but never used          no-unused-vars
+   19:9   warning  'nums' is defined but never used            no-unused-vars
+   19:15  warning  'dens' is defined but never used            no-unused-vars
+   27:9   warning  'x1' is defined but never used              no-unused-vars
+   27:13  warning  'y1' is defined but never used              no-unused-vars
+   28:9   warning  'ni' is assigned a value but never used     no-unused-vars
+   29:9   warning  'di' is assigned a value but never used     no-unused-vars
+   30:5   warning  'a1' is not defined                         no-undef
+   31:5   warning  'b1' is not defined                         no-undef
+   32:5   warning  'a2' is not defined                         no-undef
+   33:5   warning  'b2' is not defined                         no-undef
+   34:14  warning  'a2' is not defined                         no-undef
+   34:19  warning  'a1' is not defined                         no-undef
+   35:14  warning  'b2' is not defined                         no-undef
+   35:19  warning  'b1' is not defined                         no-undef
+   36:9   warning  's' is assigned a value but never used      no-unused-vars
+   37:9   warning  't' is assigned a value but never used      no-unused-vars
+   38:14  warning  'b1' is not defined                         no-undef
+   38:20  warning  'b1' is not defined                         no-undef
+   38:25  warning  'b2' is not defined                         no-undef
+  120:13  warning  'numerator' is already defined              no-redeclare
+  129:13  warning  'denominator' is already defined            no-redeclare
+  142:13  warning  'output' is defined but never used          no-unused-vars
+  146:13  warning  'j' is defined but never used               no-unused-vars
+  146:16  warning  'k' is defined but never used               no-unused-vars
+  152:9   warning  'MathJax' is not defined                    no-undef
+  152:39  warning  'MathJax' is not defined                    no-undef
+  153:9   warning  'MathJax' is not defined                    no-undef
+  153:39  warning  'MathJax' is not defined                    no-undef
+  154:9   warning  'MathJax' is not defined                    no-undef
+  154:39  warning  'MathJax' is not defined                    no-undef
+  171:2   warning  Unnecessary semicolon                       no-extra-semi
+  173:10  warning  'discriminant' is defined but never used    no-unused-vars
+  175:2   warning  Unnecessary semicolon                       no-extra-semi
+  178:10  warning  'showval' is defined but never used         no-unused-vars
+  185:2   warning  Unnecessary semicolon                       no-extra-semi
+  192:2   warning  Unnecessary semicolon                       no-extra-semi
+  196:10  warning  'runprog' is defined but never used         no-unused-vars
+  196:18  warning  'i' is defined but never used               no-unused-vars
+  212:2   warning  Unnecessary semicolon                       no-extra-semi
+  218:13  warning  'chartplot' is already defined              no-redeclare
+  234:21  warning  'Chart' is not defined                      no-undef
+  286:2   warning  Unnecessary semicolon                       no-extra-semi
+  290:10  warning  'dispmenu' is defined but never used        no-unused-vars
+
+✖ 109 problems (0 errors, 109 warnings)
+  0 errors and 13 warnings potentially fixable with the `--fix` option.
+

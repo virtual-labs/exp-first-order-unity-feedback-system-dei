@@ -1,0 +1,68 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What will be the flow of output of impulse response of 1st order system?",
+      "answers": {
+        "a": "System response will remain constant",
+        "b": "System response will first increase exponentially and then decrease to its final value at t equal to infinity ",
+        "c": "System response will exponentially decrease to its final value at t equal to infinity ",
+        "d": "System response will exponentially increase to its final value at t equal to infinity "
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What will be the flow of output of step response of 1st order system?",
+      "answers": {
+        "a": "System response will remain constant",
+        "b": "System response will first increase exponentially and then decrease to its final value at t equal to infinity ",
+        "c": "System response will exponentially decrease to its final value at t equal to infinity ",
+        "d": "System response will exponentially increase to its final value at t equal to infinity "
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the relationship between the coefficient of numerator and maximum amplitude of step response",
+      "answers": {
+        "a": "Increasing numerator coefficient value, maximum amplitude of step response decreases",
+        "b": "Increasing numerator coefficient value, maximum amplitude of step response increases",
+        "c": "Decreasing numerator coefficient value, maximum amplitude of step response increases ",
+        "d": "None of the above "
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+            "question": "What is rising time of response/signal?",
+            "answers": {
+                "a": "Time taken by the system to reach from 10%-90% output state ",
+                "b": "Time taken by the system to reach it's final desired state",
+                "c": "Tune taken by system to reach at state within the specified error band",
+                "d": "None of The Above"
+            },
+            "explanations": {
+
+            },
+            "correctAnswer": "a",
+            "difficulty": "intermediate"
+        },
+        {
+
+            "question": "What is settling Time",
+            "answers": {
+                "a": "Time taken by the system to reach at state within the specified error band",
+                "b": "Instant at which output of the desired system is within a +-5% limit of final state value",
+                "c": "Both a and b",
+                "d": "None of the above"
+            },
+            "explanations": {
+
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        }
+
+  ]
+}

@@ -1,0 +1,73 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "Laplace transform of unit step function?",
+            "answers": {
+                "a": "s",
+                "b": "1",
+                "c": "1/s",
+                "d": "2s"
+            },
+            "explanations": {},
+            "correctAnswer": "c",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Laplace transform of unit impulse function?",
+            "answers": {
+                "a": "1",
+                "b": "s",
+                "c": "1/s",
+                "d": "s^2"
+            },
+            "explanations": {
+
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "First order system is defined as?",
+            "answers": {
+                "a": "Number of poles at origin",
+                "b": "Order of the differential equation",
+                "c": "Total number of poles of equation",
+                "d": "Total number of poles of equation and order of equation"
+            },
+            "explanations": {
+
+            },
+            "correctAnswer": "d",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "Unit step response of first order system with transfer function with G(s) = <img src=\"./images/pretestQ4.png\">",
+            "answers": {
+                "a": "1 - e <sup>-t/τ</sup>",
+                "b": "1 + e <sup>-t/τ</sup>",
+                "c": "1 - e <sup>t/τ<sup>",
+                "d": "1 + e <sup>t/τ</sup>"
+            },
+            "explanations": {
+
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "In the given figure what does A, B and C signifies: <img src=\"./images/pretestQ5.png\">",
+            "answers": {
+                "a": "A: Input Signal, B: Open loop gain, C: Output Signal",
+                "b": "A: Output Signal, B: Open loop gain, C: Input Signal",
+                "c": "A: Input Signal, B: Output Signal, C: Open loop gain",
+                "d": "A: Open loop gain, B: Input Signal, C: Output Signal"
+            },
+            "explanations": {
+
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        }
+
+    ]
+}
